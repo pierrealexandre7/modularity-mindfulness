@@ -42,6 +42,13 @@ header h1 {
   justify-content: center;
 }
 
+@@media only screen and (min-width: 608px) {
+  header h1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
 header h2 {
   margin: 0;
   font-size: 1.125rem;
@@ -71,6 +78,22 @@ header img {
   margin: 0;
   padding-left: 2rem;
   padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+hr {
+  color: grey;
+  padding: 0;
+}
+
+header hr {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+main hr {
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 main h1 {
@@ -78,7 +101,7 @@ main h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 2rem;
+  padding-top: 1rem;
   margin-right: 4rem;
   margin-left: 4rem;
 }
@@ -91,6 +114,10 @@ main p {
   margin-right: 4rem;
   margin-left: 4rem;
   padding-bottom: 1.5rem;
+}
+
+article figure {
+  padding-top: 1rem;
 }
 
 section {
