@@ -42,18 +42,27 @@ header h1 {
   justify-content: center;
 }
 
-@@media only screen and (min-width: 608px) {
+h2 {
+  font-size: 1.125rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 38em) {
+
   header h1 {
     display: flex;
     justify-content: flex-start;
+    padding-left: 2rem;
   }
-}
 
-header h2 {
-  margin: 0;
-  font-size: 1.125rem;
-  display: flex;
-  justify-content: center;
+  h2 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2rem;
+  }
 }
 
 ul {
@@ -69,6 +78,15 @@ ul li {
   padding: .5em 1em 1em .5em;
 }
 
+@media only screen and (min-width: 38em) {
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+  }
+}
+
 a {
   color: #3783a3;
   font-size: 1.125rem;
@@ -78,7 +96,7 @@ header img {
   margin: 0;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 hr {
@@ -87,13 +105,15 @@ hr {
 }
 
 header hr {
-  margin-right: 2rem;
+  margin-top: 0;
   margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 main hr {
-  margin-right: 2rem;
-  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 main h1 {
@@ -101,7 +121,6 @@ main h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 1rem;
   margin-right: 4rem;
   margin-left: 4rem;
 }
@@ -113,11 +132,7 @@ main p {
   padding:0;
   margin-right: 4rem;
   margin-left: 4rem;
-  padding-bottom: 1.5rem;
-}
-
-article figure {
-  padding-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 section {
@@ -127,8 +142,19 @@ section {
   grid-auto-rows: 1fr 1fr 1fr;
 }
 
-article a {
+article figure {
+  padding-top: .5rem;
+}
+
+figcaption p {
+  margin-bottom: 3rem;
+}
+
+figcaption a {
   text-decoration: none;
+  border-style: solid;
+  border-radius: .3rem;
+  padding: 1rem;
 }
 
 footer {
