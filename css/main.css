@@ -94,26 +94,26 @@ a {
 
 header img {
   margin: 0;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-bottom: 1.5rem;
 }
 
 hr {
-  color: grey;
-  padding: 0;
+  color: #e2e2e2;
+  margin-top: 1rem;
 }
 
 header hr {
   margin-top: 0;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 main hr {
-  margin-top: 1rem;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 main h1 {
@@ -121,8 +121,10 @@ main h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 4rem;
-  margin-left: 4rem;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 main p {
@@ -130,9 +132,9 @@ main p {
   justify-content: center;
   align-items: center;
   padding:0;
-  margin-right: 4rem;
-  margin-left: 4rem;
-  margin-bottom: 2rem;
+  margin: 2.5rem;
+  margin-top: .7rem;
+  margin-bottom: 0;
 }
 
 section {
@@ -143,24 +145,37 @@ section {
 }
 
 article figure {
-  padding-top: .5rem;
+  padding-top: .3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 1rem;
 }
 
 figcaption p {
-  margin-bottom: 3rem;
+  margin-bottom: 2.1rem;
 }
 
 figcaption a {
+  font-size: 1rem;
   text-decoration: none;
   border-style: solid;
   border-radius: .3rem;
-  padding: 1rem;
+  padding: .6rem;
 }
 
 footer {
+  font-size: .9rem;
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   margin-bottom: 1rem;
-  padding: 0;
 }
